@@ -16,8 +16,8 @@ for i in range(100):
   if i%2!=0:
     print(i)
 # ==================3==========================/n
-list_number=[1,1,2,3,5,8,13,21,34,55,89,134]
-for i in list_number:
+list=[1,1,2,3,5,8,13,21,34,55,89,134]
+for i in list:
   if i%2==1:
     print("There are odd number in the list")
     break
