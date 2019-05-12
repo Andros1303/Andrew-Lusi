@@ -32,13 +32,13 @@ def triangle(a, b, c):
 def circle(a):
     return(math.pi*(a**2))
 if types==1:
-    sidea=float(input("Enter dimention a:"))
-    sideb=float(input("Enter dimention b:"))
+    sidea=float(input("Enter side a:"))
+    sideb=float(input("Enter side b:"))
     print("Block area is "+str(round(block(sidea,sideb),2)))
 elif types==2:
-    sidea=float(input("Enter dimention a:"))
-    sideb=float(input("Enter dimention b:"))
-    sidec=float(input("Enter dimention c:"))
+    sidea=float(input("Enter side a:"))
+    sideb=float(input("Enter side b:"))
+    sidec=float(input("Enter side c:"))
     print("Triangle area is "+str(round(triangle(sidea,sideb,sidec),2)))
 elif types==3:
     sidea=float(input("Enter radius:"))
