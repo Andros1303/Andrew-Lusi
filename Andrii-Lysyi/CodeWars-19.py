@@ -1,6 +1,6 @@
 def double_char(s):
-    rslt = ""
+    a = ""
     for i  in s:
-        rslt += i*2
-    return rslt
+        a += i*2
+    return a
 # Given a string, you have to return a string in which each character (case-sensitive) is repeated once.
